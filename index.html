@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ders Sayacı</title>
 
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>Ders Sayacı</h1>
+
+<select id="lesson">
+<option>Programlamada Yeni Eğilimler</option>
+<option>Veritabanı</option>
+<option>Mobil Programlama</option>
+<option>Web Programlama</option>
+</select>
+
+<h2 id="timer">00:00:00</h2>
+
+<div class="buttons">
+<button onclick="startTimer()">Başlat</button>
+<button onclick="stopTimer()">Durdur</button>
+<button onclick="resetTimer()">Sıfırla</button>
+</div>
+
+<h3>AntiGravity AI Önerisi</h3>
+
+<p id="aiText">
+Henüz çalışma başlatılmadı.
+</p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
